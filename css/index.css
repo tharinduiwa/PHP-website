@@ -1,0 +1,1100 @@
+body{
+	margin: 0%;
+	padding: 0%;
+	
+}
+
+/* -------- index section ------ */
+
+.mobilenav{
+	display: none;
+
+}
+
+.navbar{
+	width: 100%;
+	margin-top: 2%;
+	background-color: plum;
+}
+
+
+
+.foldable{
+	
+
+	text-align: left;
+	width: 100%;
+	
+	display:none;
+	
+	
+}
+
+.foldable ul {
+	background-color:#110067;
+}
+
+.foldable ul li {
+
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	list-style: none;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	color:white;
+	
+}
+
+.navbar-button{
+	display: none;
+}
+
+.brand{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: bold;
+	font-size: x-large;
+	padding-right:4%;
+	text-decoration: none;
+	color:rgb(224, 49, 171);
+
+}
+
+.nav-list{
+	padding: 1%;
+	padding-bottom: 2%;
+}
+
+
+.nav-item{
+	display: inline;
+		
+
+}
+
+.nav-links {
+	text-decoration: none;
+	padding-left: 4%;
+	color:#F1F2F6;
+}
+
+.currentpage{
+	
+	color:rgb(224, 49, 171);
+}
+
+.cart{
+	margin-left: 5%;
+}
+
+
+.cart a {
+	text-decoration: none;
+	padding-left: 6%;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	display: inline;
+	
+}
+
+
+.cartitems{
+	display: inline;
+	font-size:medium;
+	color:#F1F2F6;
+
+
+}
+
+
+.slider{
+	background-image:url('../img/bg2.jpg');
+	background-size: cover;
+	width: 100%;
+	height: 50%;
+	animation-name:slideshow;
+	animation-duration:10s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	
+	
+}
+
+@keyframes slideshow{
+	
+	20%{background-image:url('../img/bg2.jpg')}
+	40%{background-image:url('../img/bg.jpg')}
+}
+
+
+
+.slider h1{
+	margin:0%;
+	padding-top: 15%;
+	padding-bottom: 0%;
+	padding-left: 5%;
+	color: rgb(224, 49, 171);
+	font-size: 5rem;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+	
+
+}
+
+@keyframes h1slidein{
+
+	0%{margin-left: -200%;}
+	
+
+}
+
+
+
+
+
+.slider p {
+	padding-bottom: 20%;
+	padding-left: 5%;
+	
+	color: white;
+
+	font-family: cursive;
+	
+	font-size: xx-large;
+
+	animation-name: h1slidein;
+	animation-duration: 3s;
+
+}
+
+.titletag{
+
+	position: relative;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-size: xx-large;
+
+}
+
+
+
+.mainsection img{
+		padding-left: 4%;
+		padding-right: 4%;
+		float: left;
+		min-width: 40%;
+		max-width: 40%;
+		display: block;
+		position: relative;
+		border: 3px solid #b09d81;
+}
+
+.promoimg1{
+	
+	width: 30em;
+	height: 28em;
+
+	margin-left: 10%;
+	margin-right: 1%;
+	
+}
+/*------------------
+  Hero section
+---------------------*/
+
+.hero-section {
+	height: 100%;
+	background: #000;
+	background-position: bottom center;
+	overflow: hidden;
+}
+
+/*------------------
+  Featured section
+---------------------*/
+
+.featured-item {
+	display: block;
+	position: relative;
+	border: 3px solid #b09d81;
+}
+
+.featured-item img {
+	min-width: 100%;
+}
+
+/*------------------
+  Product section
+---------------------*/
+
+.product-section .container {
+	margin-bottom: -90px;
+}
+
+.product-item {
+	margin-bottom: 95px;
+}
+
+.product-item figure {
+	margin-bottom: 45px;
+	position: relative;
+	overflow: hidden;
+	-webkit-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	position: relative;
+}
+
+.product-item figure img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+	
+}
+
+.product-item figure:after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	border: 2px solid #ebebeb;
+}
+
+.product-item .product-info {
+	text-align:center;
+}
+
+.product-item .product-info h6 {
+	text-transform: uppercase;
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+
+.product-item .product-info p {
+	font-size: 24px;
+	font-weight: 700;
+	color: #414141;
+}
+
+.product-item:hover figure:after {
+	opacity: 1;
+}
+
+
+
+.promoimg2{
+	width: 30em;
+	height: 28em;
+	float: right;
+	margin-left: 1%;
+	margin-right: 10%;
+}
+
+.promodesc1{
+	
+	font-size: x-large;	
+	padding-top: 10%;
+	padding-bottom: 10%;
+	margin-bottom: 10%;
+
+}
+.promodesc2{
+	
+	padding-top: 10%;
+	padding-bottom: 10%;
+	font-size: x-large;
+	padding-left: 1%;
+	
+}
+
+.trendsetterdiv{
+
+  display:relative;
+ padding-top: 40%;
+ 
+
+}
+
+.cards{
+	
+	width: 20%;
+	float: left;
+	padding-right: 2%;
+	margin-left: 2%;
+	text-align: center;
+	
+}
+
+.cards:hover{
+	width: 22%;
+	transition: ease-in;
+	background-color:#FF0000;
+}
+
+
+.cards img {
+	width: 100%; 
+	height: 50%;
+	padding-left: 5%;
+	padding-top: 5%;
+	
+}
+
+.cards h4{
+	padding-left: 6%;
+	color:white;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.cards p {
+	padding:4%;
+	margin-left: 1%;
+	width: 100%;
+	background-color:#0652DD;
+	color:white;
+}
+
+.setter1{
+	background-color:#EB4D4B;
+}
+
+.setter2{
+	background-color:#F9CA24;
+}
+
+.setter3{
+	background-color:#00A8FF;
+}
+
+.setter4{
+	background-color:#4CD137;
+}
+
+/*------------ index section end ------- */
+
+
+/*---------- product section ---------------*/
+.productfilter{
+	padding-top: 0%;
+}
+
+.filter{
+	display: inline;
+	margin-top: 3%;
+	margin-left: 33%;
+
+}
+
+.filter p {
+	display: inline;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: x-large;
+
+}
+
+.filter select {
+	height: 2rem; 
+	width: 10rem;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.filter button {
+	height: 2rem; 
+	width: 7rem;
+	margin-left: 1%;
+	background-color:white;
+	border: #000;
+	font-family:'Times New Roman', Times, serif;
+	font-size: larger;
+	border-color:white;
+	border-radius: 13em;
+}
+
+.filter button:hover{
+	background-color:blue;
+	color:white;
+	border-color: blue;
+}
+
+.productlist{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:center;
+	
+}
+
+.products{
+	float: left;
+	margin-top: 2%;
+	margin-right: 1%;
+	width: 18rem;
+	height: 50rem;
+	border-radius:5%;
+	background-color:#130F40;
+	color:white;
+	
+}
+
+.products img{
+
+	width: 100%;
+	height: 55%;
+
+
+}
+
+.products h4{
+	position: relative;
+	text-align: center;
+	font-size:30px;
+	margin-top: 3%;
+	margin-bottom: 0%;
+}
+
+.products p {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	position: relative;
+	text-align: center;
+
+}
+
+.products h5 {
+	font-size: large;
+	font-family: cursive;
+	text-align: center;
+}
+
+.products button{
+	position: relative;
+	left: 10%;	
+	right: 10%;
+	padding: 5%;
+	background-color: #FF0000;
+	color: white;
+	font-style: bold;
+	font-size: 1rem;
+	
+	border-style: none;
+	
+}
+
+.products button:hover{
+	transition: ease-in;
+	transition-duration: 1s;
+	border-radius:25rem 25rem;
+}
+
+
+/*------ product section end ------------*/
+
+
+
+/*------- about us section css -------- */
+
+
+
+.aboutsection img{
+
+	position: relative; 
+	left: 15%; 
+	right: 15%; 
+	width: 70%; 
+	height: 30rem;
+
+}
+
+.aboutsection p {
+
+	
+	padding-left: 4%;
+	padding-top: 1%;
+	padding-right: 4%;
+	font-size: 1rem; 
+	text-align: left;
+	margin-bottom: 6%;
+	
+
+}
+
+
+/* -------- about us section css end ---- */
+
+
+
+/* ----------- new post page ------ */
+
+.newssection{
+	padding-top: 0%;
+}
+.postsections{
+	display:inline-block;
+	 border-color:black;
+	 border-style: groove; 
+	margin: 2%;
+	margin-top: 2%;
+}
+
+.postsections img {
+	padding-top: 2%;
+	 padding-bottom: 2%; 
+	float: left; 
+	margin-left: 2%;
+	 margin-right: 2%; 
+	height: 40%; 
+	width: 40%;
+}
+
+.postsections h2 {
+	padding-top: 2%;
+}
+
+.postsections p{
+	left: 10%; 
+	width: 95%;
+	 padding-top: 2%;
+	 padding-bottom: 2%;
+
+}
+
+.postsections button {
+	height: 3rem;
+	border-style:none;
+	background-color:orange;
+	font-size: medium;
+	color:white;
+}
+
+.postsections button:hover{
+
+	background-color:red;
+	color:white;
+
+}
+
+
+
+
+
+/*----------- news post page end -----*/
+
+
+
+/*--------- gallery -------------*/
+
+
+
+.gallery{
+	padding-top: 3%;
+}
+
+.images img {
+
+	margin:1%;
+	width: 30%;	
+	height:500px;
+
+
+}
+
+
+
+/*-------- gallery section end ---- */
+
+
+
+
+/*------------ contact form css ---- */
+
+.text{
+	position: relative;
+	text-align: center;
+	font-family: bold;
+	margin-top: 2%;
+	margin-bottom: 5%;
+}
+
+.contactdiv{
+	position: relative;
+	display: inline;
+}
+
+.contactdetails {
+	
+	float: left;
+	width: 30%;
+	
+}
+
+.contactdetails p {
+	padding-left: 30%;
+	width: 100%;
+}
+
+
+.icon{
+	position: relative;
+	left: 30%;
+	padding: 5%;
+	display: block;
+}
+
+.icon img {
+	
+	width: 10%; 
+
+}
+
+.icon i {
+	padding-left: 4%;
+	
+}
+
+
+.contactdiv form {
+	float: left;
+	margin-left: 20%;
+	
+}
+
+
+.contactform input {
+	width: 500px;
+	margin-bottom: 20px;
+	height: 45px;
+	border-style: none;
+	background-color:whitesmoke;
+	
+}
+
+#messagebox {
+	height: 150px;
+	
+}
+
+#sendbutton{
+	width: 100%;
+	height: 40px;
+	background-color:white;
+	border-radius: 0.9rem;
+	border-color:black;
+}
+
+#sendbutton:hover{
+	background-color:whitesmoke;
+}
+
+/*------------ contact form css end ---- */
+
+
+
+
+/* --------- footer css ----------- */
+
+
+
+.footer-section {
+	background: #222222;
+	padding: 10px;
+
+}
+
+.footer-section .copyright {
+	color: #505050;
+	margin-bottom: 0;
+	line-height:20px ;
+}
+
+
+@media only screen and (max-width:450px){
+
+
+	.navbar-button{
+		display: inline;
+	}
+
+	.nav-list{
+		display:none;
+	}
+
+	.mobilenav{
+		display: inline;
+		background-color:white;
+	
+	}
+
+	.brand{
+	
+		margin-left:2%;
+		float: left;
+		color:pink;
+		font-size: 1rem;
+		
+	}
+	
+	.navbar{
+		background-color:white;
+	}
+
+	.navbar-button{
+		margin-right:5%;
+		float:right;
+		
+	}
+
+	.cart{
+		margin-left: 0%;
+		
+	}
+
+	.cart a {
+		margin-top: 1%;
+		padding-bottom: 3%;
+		padding-left: 0%;
+		margin-left: 0%;
+	}
+
+
+	.cartimg{
+		margin-top: 1%;
+	}
+	
+	.currentpage{
+		padding-left: 0%;
+	}
+
+
+	.foldable{
+	
+		padding-top: 4%;
+		
+		
+
+	}
+
+	.foldable ul li {
+		
+		list-style: none;
+		
+
+	}
+
+	.foldable ul li  a {
+		display: block;
+	}
+
+	.slider h1{
+		margin: 3%;
+		font-size: xx-large;
+		padding-top: 20%;
+	}
+
+	.slider p {
+		font-size: medium;
+	}
+
+
+	
+
+	.titletag{
+
+		position: relative;
+		text-align: center;
+		
+	}
+
+	
+
+	.mainsection img{
+		padding-left: 3.5%;
+		height: 7em;
+	}
+
+
+	.section1 img{
+		padding: 1%;
+		height: 3em;
+	}
+
+	.section2 img {
+		padding: 1%;
+		height:3em;
+	}
+
+	.promotions{
+		
+		margin-top: 0%;
+		
+	}
+	
+	.promoimg1 {
+	
+		
+		float: left; 
+		margin-left: 5%; 
+		margin-right: 2%; 
+		width: 45%; 
+		height: 30%;
+		
+	
+	}
+	
+	.promodesc1{
+		padding-top: 0%;
+		padding-bottom: 10%;
+		margin-bottom: 2%;
+		font-size: small;
+		
+	}
+	
+	.promoimg2{
+		float: right; 
+		margin-left: 2%; 
+		margin-right: 5%; 
+		width: 45%;
+		 height: 30%;
+	}
+	
+	
+	.promodesc2{
+		padding-top: 0%;
+		padding-bottom: 10%;
+		padding-left: 1%;
+		font-size: smaller;
+
+	}
+
+
+	
+.trendsetterdiv{
+
+	display: relative;
+	margin-top: 60%;
+   
+  
+  }
+
+ 
+  .cards{
+	
+	padding: 0%;
+	margin: 0%;
+	width: 100%;
+		
+}
+
+.cards img {
+	width: 70%; 
+	height: 50%;
+	margin-top: 10%;
+	
+	
+}
+
+
+.cards h4{
+	padding-left: 6%;
+	color:black;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.cards p {
+
+
+	width: 90%;
+	background-color:#0652DD;
+	color:white;
+	font-size: medium;
+}
+  
+/*products section mobile css */
+
+.productfilter{
+	padding-top: 5%;
+	padding-left: 5%;
+	
+	
+}
+
+.productfilter h2 {
+	font-size: x-large;
+}
+
+.productfilter p {
+	font-size: medium;
+	
+}
+
+
+.products{
+	width: 99%;
+	height: 40rem;
+	background-color: wheat;
+}
+
+
+
+/* products section mobile css end */
+
+
+/* about us section mobile css */
+
+.aboutsection{
+	padding-top: 5%;
+	
+}
+
+.aboutsection img{
+
+	position:initial;
+	width: 100%;
+	height: 50%;
+
+}
+
+.aboutsection p {
+	padding-left:2%;
+	padding-right: 2%;
+	font-size: 96%;
+	text-align: left;
+
+}
+
+/*----- about us sectiion mobile css end */
+  
+
+/* ------news page mobile css ---------- */
+
+.newssection{
+	padding-top: 7%;
+}
+.postsections img {
+	padding-top: 8%;
+	 padding-bottom: 0%; 
+
+}
+
+
+
+.postsections p {
+	padding-left: 2%;
+}
+
+.postsections button {
+	margin-left: 5%;
+	margin-bottom: 5%;
+}
+
+
+/*----- news page mobile css end ------ */
+	
+
+/*-------- gallery page mobile css start ------*/
+
+.gallery{
+	padding-top: 10%;
+}
+
+.images img {
+
+	
+	
+
+}
+
+
+/*---------gallery page mobile css end ---------*/
+
+
+
+
+/*---------- contact us mobile css ------*/
+
+
+
+
+.text{
+	position: relative;
+	text-align: center;
+	font-family: bold;
+	margin-top: 5%;
+}
+
+.contactdetails {
+	
+	float: none;
+	width: 95%;
+	
+}
+
+.contactdetails p {
+	text-align: center;
+	padding-left:2%;
+	width: 100%;
+}
+
+
+.icon{
+	position: relative;
+	left: 2%;
+	padding: 5%;
+}
+
+.icon img {
+	
+	width: 5%; 
+
+}
+
+.icon i {
+	padding-left: 4%;
+	font-size:medium;
+	
+}
+
+
+.contactdiv form {
+	float: none;
+	margin-left:0%;
+	margin-bottom: 10%;
+
+}
+
+
+.contactform input {
+	width: 90%;
+	margin: 2%;
+
+
+	
+}
+
+#sendbutton{
+	margin:2%;
+	width: 90%;
+}
+
+
+
+
+
+
+/*------------ contact us mobile css end -----------*/
+
+}
+
+
+@media only screen and (min-width:450px){
+
+	.foldable ul li{
+
+		display: none;
+	}
+
+
+}

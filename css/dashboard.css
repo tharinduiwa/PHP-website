@@ -1,0 +1,51 @@
+
+.option1{
+  width:30%; 
+  border-style: groove;
+  margin-left: 2%;
+  display:  flex;
+  float: left;
+}
+
+.option2{
+  width:30%; 
+   border-style: groove;
+  margin-right: 5%;
+  display:  flex;
+  float: right;
+}
+
+
+.option3{
+  width:25%; 
+
+  border-style: groove;
+  margin-left: 1%;
+  margin-right: 2%;
+  display:  flex;
+  float: right;
+}
+
+.ocard h4{
+  margin: auto;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  padding-left: 5%;
+  font-size: large;
+}
+
+
+.ocard button{
+  background-color: #ee46a8;
+  margin: 1%;
+  margin-right: 2%;
+}
+
+.ocard button:hover{
+  background-color:pink;
+}
+
+.ocard button a{
+  color: white;
+}
+
